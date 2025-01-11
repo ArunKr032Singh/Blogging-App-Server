@@ -38,8 +38,8 @@ public class UserDto {
 	@NotEmpty
 	private String about;
 	
-//	private Set<RoleDto> roles = new HashSet<>();
-//	
+	private Set<RoleDto> roles = new HashSet<>();
+	
 //	
 //	@JsonIgnore
 //	public String getPassword() {
